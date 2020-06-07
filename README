@@ -1,0 +1,4 @@
+Install script for Arch Linux (Manjaro KDE Plasma) to install x11vnc and setup as service.
+Deactivates KDE compositor.
+
+Use at your own risk :)
