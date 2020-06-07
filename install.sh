@@ -1,5 +1,5 @@
 #!/bin/bash
-su -c pacman -S x11vnc
+su -c "pacman -S x11vnc"
 mkdir -p ~/.local/share/systemd/user/
 cp x11vnc_user.service ~/.local/share/systemd/user/x11vnc_user.service
 systemctl --user daemon-reload
